@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+	display: inline-block;
+	width: 930px;
+    height: auto;
+    vertical-align: top;
+  }
+  .blue-text{
+    color: rgb(40, 100, 155);
+  }
+  header img{
+    width: 90px;
+    position: absolute;
+  }
+  header h1{
+    color: rgb(79, 79, 79);
+    font-size: 48px;
+    font-weight: normal;
+    margin: 20px 0px 0px 95px
+  }
+  header h2{
+	display: block;
+	font-size: 32px;
+	font-weight: normal;
+	color: white;
+    background: linear-gradient(rgb(20,100,150), rgb(80,130,165), rgb(25,105,160));
+    padding: 10px;
+  }
+main{
+	display: inline-block;
+	vertical-align: top;
+	width: 930px;
+    height: 660px; 
+    background: linear-gradient(rgb(225,225,225), rgb(250,250,250), rgb(255,255,255), rgb(255,255,255), rgb(255,255,255));
+}
+  .column-left{
+	display: inline-block;
+	width: 200px;
+    height: auto;
+    vertical-align: top;
+    margin-left: 5px;
+}
+  .left-1{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 20px 0px 10px 0px;
+}
+  .red-text{
+    color: rgba(255,0,0,0.726);
+}
+  .left-2{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+  .blue-text{
+    color: rgb(75,120,175);
+}
+.button{
+    width: 195px;
+    height: 30px;
+	text-align: center;
+	padding-top: 9px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+    font-size: 16px;
+	color: white;
+	border-radius: 5px;
+    box-shadow:3px 3px rgb(130,150,145);
+}
+  .blue{
+    background: linear-gradient(rgb(95,150,192), rgb(40,100,150));
+}
+  .orange{
+    background: linear-gradient(rgb(225,170,85), rgb(235,115,0));
+    margin-bottom: 30px;
+}
+.dojo-ad{
+    width: 200px;
+    height: 270px;
+    background-image: url("img/ad_background.png");
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 25px;
+}
+  .dojo-ad p{
+    color: white;
+    font-size: 24px;
+}
+  .dojo-ad img{
+    width: 85px;
+    margin-bottom: 5px;
+}
+  .button.lightblue{
+    width: 165px;
+    height: 25px;
+    margin-left: 15px;
+	padding-top: 7px;
+	font-size: 16px;
+	background: linear-gradient(rgb(123, 209, 223), rgb(5, 194, 222));
+    box-shadow:2px 2px black;
+}
+  .arrows{
+    font-size: 10px;
+}
+.column-right{
+    width: 675px;
+    display: inline-block;
+    margin-left: 30px;
+}
+  .column-right .home{
+    width: 20px;
+    vertical-align: top;
+    margin-top: 7px;
+}
+  .column-right p{
+    display: inline-block;
+    vertical-align: top
+}
+  .column-right .DNS{
+	color: rgb(0,45,130);
+    font-size: 15px;
+    margin-right: 414px;
+    display: inline-block;
+    margin-top: 10px;
+}
+  .column-right .phone{
+    width: 40px;
+    margin-top: 8px;
+}
+  .column-right .contact-info{
+    width: 150px;
+    height: 65px;
+    text-align: center;
+	font-size: 10px;
+	margin: 0px 0px 0px 5px;
+}
+  .phone-number{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(37, 193, 221);
+}
+  .column-right h3{
+	  margin: 7px 0px;
+	  font-weight:bolder;
+	  color: rgb(40, 100, 150);
+}
+  .column-right p{
+	font-size: 14px;
+  }	
+    .column-right p .bold{
+	  font-weight:bold;
+	}	  
+  .column-right ul{
+		margin-left: 40px;
+		width:635px;
+	}
+  .column-right li{
+    font-size: 14px;
+    margin-top: 5px;
+}
+  .column-right ol{
+    margin-left: 40px;
+}
+  .column-right .client-server{
+    width: 250px;
+    margin: 20px 0px 10px 200px;
+}
+  .keywords{
+    color: rgb(1, 187, 216);
+}
+footer{
+    height: 110px;
+    border-color: rgb(21, 136, 221);
+    border-style: solid;
+    border-width: 5px 5px 0px 5px;
+    padding: 10px 0px 0px 10px;
+    margin-top: 20px;
+    vertical-align: top;
+}
+  .html{
+    width: 110px;
+    display: inline-block;
+}
+  .footer-text{
+	display: inline-block;
+    width: 522px;
+	vertical-align: top;
+	margin-left:15px;
+}	
+    .footer-text h3{
+      display: inline-block;
+      width: 320px;
+      vertical-align: top;
+}
+    .footer-text p{
+      display: inline-block;
+      width: 520px;
+      vertical-align: top;
+      margin-bottom: 5px;
+}
+    .italic{
+	    font-style: italic;
+	}
